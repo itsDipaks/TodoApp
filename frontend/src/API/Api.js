@@ -1,5 +1,5 @@
 import axios from "axios";
-export const BaseUrl = "http://localhost:8700";
+export const BaseUrl = "https://distinct-waistcoat-bat.cyclic.app/";
 export const ApiSignup = async (cred) => {
   await axios.post(`${BaseUrl}/auth/signup`, cred).then((res) => {
     return res;
